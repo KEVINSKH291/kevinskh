@@ -1,7 +1,7 @@
-var foods = "小明  小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 "
+var foods = "kevinskh"
 var food = foods.split(" ")
 var main = document.getElementsByClassName("main")[0]
-main.innerHTML = "朱梦姣🤩"
+main.innerHTML = "悦😏"
 var start = document.getElementById("start")
 var back = document.getElementsByClassName("back")[0]
 var stop = true
@@ -37,7 +37,7 @@ function draw() {
     back.innerHTML = ""
     if (!stop) {
         main.innerHTML = food[parseInt(Math.random() * food.length)]
-        start.innerHTML = "就是你了"
+        start.innerHTML = "YOU"
     } else {}
     for (var i = 0; i < texts.length; i++) {
         text = texts[i]
